@@ -25,30 +25,41 @@ print(c)
 
 #3) Check if NOT(True is equal to False) and store the answer in variable d
 d = not(True) 
+print(d)
 
 #4) Check if [1,2,3] is equal to [1,2,3] OR if ["a", "b", "c"] is equal to 
 # ) ["d", "e", "f"] and store the answer in variable e
-e = ([1,2,3] = [1,2,3]) or (["a", "b", "c"] = ["d", "e", "f"])
+e = ([1,2,3] == [1,2,3]) or (["a", "b", "c"] == ["d", "e", "f"])
+print(e)
 
 #5) Check if 1 is less than or equal to 2 AND if 3 is greater than 2
 # ) and store the answer in variable f
 f = (1<=2) and (3>=2)
+print(f)
 
 #6) Check if 1 is greater than or equal to 2 OR if 3 is greater than 2
 # ) and store the answer in variable g
 g = (1>=2) or (3>=2)
+print(g)
 
 #7) Check if 1.66 is greater than or equal to 1.67 AND if .5 is less than .6 
 # ) and store the answer in variable h
+h = (1.66==1.67) and (.5<.6)
+print(h)
 
 #8) Check if 1.66 is less than or equal to 1.67 OR if .5 is less than .6 
 # ) and store the answer in variable i
+i = (1.66<=1.67) or (.5<.6)
+print(i)
 
 #9) Check if 1 is less than 2 AND if 1 is equal to 0 
 # ) and store the answer in variable j
+j = (1<2) and (1==0)
+print(j)
 
 #10) Check if NOT(1 is greater than 2) and store the answer in variable k
-
+k = not(1>2)
+print(k)
 '''
 For the next section, you will be reading comparison statements and determining their answer
 EXAMPLE:
